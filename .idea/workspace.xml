@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24636cda-fb4b-46cc-8767-0d15694ea829" name="Default Changelist" comment="new files were created">
-      <change afterPath="$PROJECT_DIR$/images/mainMap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mapV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nacimiento.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/paisaje.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/paisaje2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/paramo_guacheneque.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pozo_de_la_nutria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sonsa.jpg" afterDir="false" />
+    <list default="true" id="24636cda-fb4b-46cc-8767-0d15694ea829" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VillapinzonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VillapinzonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/im1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/infoIco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/location.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/location.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/im1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -111,26 +93,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="16" />
+          <entry key="Image" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="566" />
+          <entry key="JAVA" value="890" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="566" />
+          <entry key="java" value="890" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="15" />
-          <entry key="png" value="1" />
+          <entry key="jpg" value="23" />
+          <entry key="png" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -140,24 +124,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="180" column="26" lean-forward="true" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
+            <state relative-caret-position="305">
+              <caret line="191" column="42" selection-start-line="191" selection-start-column="42" selection-end-line="191" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1557#5013#0" expanded="true" />
-                <element signature="e#5012#5013#0" expanded="true" />
-                <element signature="e#5165#5166#0" expanded="true" />
-                <element signature="e#5226#5227#0" expanded="true" />
-                <element signature="e#3581#3582#0" expanded="true" />
-                <element signature="e#3624#3625#0" expanded="true" />
+                <element signature="e#1683#5605#0" expanded="true" />
+                <element signature="e#5604#5605#0" expanded="true" />
+                <element signature="e#5757#5758#0" expanded="true" />
+                <element signature="e#5818#5819#0" expanded="true" />
+                <element signature="e#7339#7340#0" expanded="true" />
+                <element signature="e#7382#7383#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainView.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -172,6 +151,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mapImage</find>
+      <find>nacimiento</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,7 +234,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="183" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542248873244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542252338961" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -341,7 +321,7 @@
       <workItem from="1540917899789" duration="8367000" />
       <workItem from="1540931692194" duration="6133000" />
       <workItem from="1540997379662" duration="14008000" />
-      <workItem from="1542240895385" duration="6119000" />
+      <workItem from="1542240895385" duration="9558000" />
     </task>
     <task id="LOCAL-00001" summary="new files were created">
       <created>1540938875252</created>
@@ -350,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540938875253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All the new images were added&#10;Code are working finally">
+      <created>1542248909031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542248909031</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34627000" />
+    <option name="totallyTimeSpent" value="38066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -369,8 +356,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33770493" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -401,16 +388,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new files were created" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files were created" />
+    <MESSAGE value="All the new images were added&#10;Code are working finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="All the new images were added&#10;Code are working finally" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>162</line>
+          <line>190</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainView.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainView.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainView.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainView.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -481,31 +493,10 @@
     <entry file="file://$PROJECT_DIR$/nature1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/im1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/paramo_guacheneque.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/pozo_de_la_nutria.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/sonsa.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/mainMap2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mapV.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/nacimiento.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/paisaje2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/paisaje.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/infoIco.jpg">
@@ -520,18 +511,39 @@
     <entry file="file://$PROJECT_DIR$/src/MainView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/paisaje2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/paisaje.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pozo_de_la_nutria.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/im1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nacimiento.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mapV.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/paramo_guacheneque.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="180" column="26" lean-forward="true" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
+        <state relative-caret-position="305">
+          <caret line="191" column="42" selection-start-line="191" selection-start-column="42" selection-end-line="191" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1557#5013#0" expanded="true" />
-            <element signature="e#5012#5013#0" expanded="true" />
-            <element signature="e#5165#5166#0" expanded="true" />
-            <element signature="e#5226#5227#0" expanded="true" />
-            <element signature="e#3581#3582#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
+            <element signature="e#1683#5605#0" expanded="true" />
+            <element signature="e#5604#5605#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5818#5819#0" expanded="true" />
+            <element signature="e#7339#7340#0" expanded="true" />
+            <element signature="e#7382#7383#0" expanded="true" />
           </folding>
         </state>
       </provider>

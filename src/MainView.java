@@ -25,10 +25,12 @@ public class MainView {
     private JMenuItem menuItem;
     private JRadioButtonMenuItem rbMenuItem;
     private JCheckBoxMenuItem cbMenuItem;
-    ArrayList<String> sonsaNames;
-    ArrayList<String> chasquesNames;
-    ArrayList<String> chigualaNames;
-    ArrayList<String> salitreNames;
+    private boolean isSonsa, isChasques, isChiguala, isSalitre;
+    private ArrayList<String> sonsaNames;
+    private ArrayList<String> chasquesNames;
+    private ArrayList<String> chigualaNames;
+    private ArrayList<String> salitreNames;
+    private ArrayList<String> localNames;
     private int c = 0;
 
     private double x, y;
@@ -64,8 +66,13 @@ public class MainView {
                             "Me mira y se saborea.\n\n" +
                             "Carlos Cárdenas C.\n" +
                             "68 años. Chazques");
-                    imagesLabel.setIcon(new ImageIcon(chasquesNames.get(0)));
+                    c = 0;
+                    imagesLabel.setIcon(new ImageIcon(chasquesNames.get(c)));
                     imagesLabel.setVisible(true);
+                    isChasques = true;
+                    isChiguala = false;
+                    isSalitre = false;
+                    isSonsa = false;
                 } else if (x >= 101.0 && x <= 107.0 && y >= 327.0 && y <= 335.0) {//Chiguala
                     mapInfoText.setText("COPLAS\n\n" +
                             "1. Las mujeres también sienten\n" +
@@ -92,8 +99,13 @@ public class MainView {
                             "Con sus canciones preciosas.\n\n" +
                             "Abdon Rodríguez\n" +
                             "74 años. Chiguala");
-                    imagesLabel.setIcon(new ImageIcon(chigualaNames.get(0)));
+                    c = 0;
+                    imagesLabel.setIcon(new ImageIcon(chigualaNames.get(c)));
                     imagesLabel.setVisible(true);
+                    isChasques = false;
+                    isChiguala = true;
+                    isSalitre = false;
+                    isSonsa = false;
                 } else if (x >= 120.0 && x <= 127.0 && y >= 243.0 && y <= 253.0) {//Salitre
                     mapInfoText.setText("COPLAS\n\n" +
                             "1. Un diablo se cayó al agua\n" +
@@ -102,8 +114,13 @@ public class MainView {
                             "Como diablos se cayó.\n\n" +
                             "Gilma Inés Pinzón\n" +
                             "61 años. Salitre");
-                    imagesLabel.setIcon(new ImageIcon(salitreNames.get(0)));
+                    c = 0;
+                    imagesLabel.setIcon(new ImageIcon(salitreNames.get(c)));
                     imagesLabel.setVisible(true);
+                    isChasques = false;
+                    isChiguala = false;
+                    isSalitre = true;
+                    isSonsa = false;
                 } else if (x >= 108.0 && x <= 116.0 && y >= 293.0 && y <= 303.0) {//Sonsa
                     mapInfoText.setText("COPLAS\n\n" +
                             "1. Por esta cañada abajo\n" +
@@ -112,8 +129,13 @@ public class MainView {
                             "Que se te llena de moscos.\n\n" +
                             "José Buenaventura G.\n" +
                             "81 años. Sonsa");
-                    imagesLabel.setIcon(new ImageIcon(sonsaNames.get(0)));
+                    c = 0;
+                    imagesLabel.setIcon(new ImageIcon(sonsaNames.get(c)));
                     imagesLabel.setVisible(true);
+                    isChasques = false;
+                    isChiguala = false;
+                    isSalitre = false;
+                    isSonsa = true;
                 }
             }
         });
@@ -126,23 +148,49 @@ public class MainView {
         nextImageButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                int limit = imagesNames.size();
-//                if (c < limit) {
-//                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
-//                    imagesLabel.repaint();
-//                    c++;
-//                } else {
-//                    c = 0;
-//                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
-//                    imagesLabel.repaint();
-//                    c++;
-//                }
+                if (isChasques) {
+                    localNames = chasquesNames;
+                } else if (isChiguala) {
+                    localNames = chigualaNames;
+                } else if (isSalitre) {
+                    localNames = salitreNames;
+                } else if (isSonsa) {
+                    localNames = sonsaNames;
+                }
+                int limit = localNames.size();
+                if (c < limit - 1) {
+                    c++;
+                    imagesLabel.setIcon(new ImageIcon(localNames.get(c)));
+                    imagesLabel.repaint();
+                } else {
+                    c = 0;
+                    imagesLabel.setIcon(new ImageIcon(localNames.get(c)));
+                    imagesLabel.repaint();
+                }
             }
         });
         previewImageButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                if (isChasques) {
+                    localNames = chasquesNames;
+                } else if (isChiguala) {
+                    localNames = chigualaNames;
+                } else if (isSalitre) {
+                    localNames = salitreNames;
+                } else if (isSonsa) {
+                    localNames = sonsaNames;
+                }
+                int limit = localNames.size();
+                if (c > 0) {
+                    c--;
+                    imagesLabel.setIcon(new ImageIcon(localNames.get(c)));
+                    imagesLabel.repaint();
+                } else {
+                    c = limit-1;
+                    imagesLabel.setIcon(new ImageIcon(localNames.get(c)));
+                    imagesLabel.repaint();
+                }
             }
         });
     }
@@ -165,7 +213,6 @@ public class MainView {
 
     private void setChasquesNames() {
         chasquesNames = new ArrayList<>();
-        chasquesNames.add("images/paramo_guacheneque.jpg");
         chasquesNames.add("images/pozo_de_la_nutria.jpg");
         chasquesNames.add("images/mapV.jpg");
     }
@@ -179,5 +226,6 @@ public class MainView {
     private void setSalitreNames() {
         salitreNames = new ArrayList<>();
         salitreNames.add("images/paisaje.jpg");
+        salitreNames.add("images/paramo_guacheneque.jpg");
     }
 }
