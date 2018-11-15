@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24636cda-fb4b-46cc-8767-0d15694ea829" name="Default Changelist" comment="">
+    <list default="true" id="24636cda-fb4b-46cc-8767-0d15694ea829" name="Default Changelist" comment="new files were created">
+      <change afterPath="$PROJECT_DIR$/images/mainMap2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mapV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nacimiento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/paisaje.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/paisaje2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/paramo_guacheneque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pozo_de_la_nutria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sonsa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VillapinzonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VillapinzonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infoIco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/im1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/infoIco.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/location.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nature2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nature3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nature4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nature5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VillapinzonProject/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoordinatesInScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainView.java" afterDir="false" />
     </list>
@@ -88,25 +102,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-249528753">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="566" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="566" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="15" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="115" column="39" lean-forward="true" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+            <state relative-caret-position="748">
+              <caret line="180" column="26" lean-forward="true" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#389#1034#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#2365#2366#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#3006#3007#0" expanded="true" />
-                <element signature="e#3049#3050#0" expanded="true" />
-                <element signature="method#createMenuBar#0;class#MainView#0" />
+                <element signature="e#1557#5013#0" expanded="true" />
+                <element signature="e#5012#5013#0" expanded="true" />
+                <element signature="e#5165#5166#0" expanded="true" />
+                <element signature="e#5226#5227#0" expanded="true" />
+                <element signature="e#3581#3582#0" expanded="true" />
+                <element signature="e#3624#3625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,11 +205,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1331" />
-    <option name="y" value="-16" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -176,7 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,15 +247,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="227" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="183" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541019635567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542248873244" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -214,6 +262,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\santi\Desktop\villaProject\villapinzonProject\images" />
       <recent name="C:\Users\sruiz\Desktop\VillapinzonProject\villapinzonProject\images" />
       <recent name="C:\Users\sruiz\Desktop\VillapinzonProject" />
       <recent name="C:\Users\sruiz\Desktop\VillapinzonProject\assets" />
@@ -292,6 +341,7 @@
       <workItem from="1540917899789" duration="8367000" />
       <workItem from="1540931692194" duration="6133000" />
       <workItem from="1540997379662" duration="14008000" />
+      <workItem from="1542240895385" duration="6119000" />
     </task>
     <task id="LOCAL-00001" summary="new files were created">
       <created>1540938875252</created>
@@ -304,12 +354,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28508000" />
+    <option name="totallyTimeSpent" value="34627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -317,8 +368,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,7 +379,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -337,7 +390,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24357034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,33 +408,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>35</line>
+          <line>162</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainView.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -407,24 +436,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ImagePanel.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-          <folding>
-            <element signature="e#3946#3947#0" expanded="true" />
-            <element signature="e#3977#3978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoordinatesInScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/CoordinatesInScreen.java" />
     <entry file="file://$PROJECT_DIR$/src/SecondView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -444,49 +457,11 @@
     <entry file="file://$PROJECT_DIR$/src/SecondView.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="975" column="21" selection-start-line="975" selection-start-column="21" selection-end-line="975" selection-end-column="21" />
-          <folding>
-            <element signature="e#37417#37418#0" expanded="true" />
-            <element signature="e#37448#37449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JScrollPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="357" column="69" lean-forward="true" selection-start-line="357" selection-start-column="69" selection-end-line="357" selection-end-column="69" />
-          <folding>
-            <element signature="e#11598#11599#0" expanded="true" />
-            <element signature="e#11646#11647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/AbstractButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="1573" column="16" selection-start-line="1573" selection-start-column="16" selection-end-line="1573" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
-          <folding>
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/infoIco.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JDialog.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/JScrollPane.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/AbstractButton.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Dimension.java" />
+    <entry file="file://$PROJECT_DIR$/images/infoIco.png" />
     <entry file="file://$PROJECT_DIR$/src/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -506,27 +481,57 @@
     <entry file="file://$PROJECT_DIR$/nature1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/im1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/paramo_guacheneque.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pozo_de_la_nutria.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sonsa.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mainMap2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mapV.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nacimiento.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/paisaje2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/paisaje.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/infoIco.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/location.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/location.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/im1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="115" column="39" lean-forward="true" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+        <state relative-caret-position="748">
+          <caret line="180" column="26" lean-forward="true" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#389#1034#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="method#createMenuBar#0;class#MainView#0" />
+            <element signature="e#1557#5013#0" expanded="true" />
+            <element signature="e#5012#5013#0" expanded="true" />
+            <element signature="e#5165#5166#0" expanded="true" />
+            <element signature="e#5226#5227#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
+            <element signature="e#3624#3625#0" expanded="true" />
           </folding>
         </state>
       </provider>

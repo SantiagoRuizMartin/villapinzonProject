@@ -1,8 +1,9 @@
-import sun.font.TrueTypeFont;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
 public class MainView {
@@ -24,23 +25,27 @@ public class MainView {
     private JMenuItem menuItem;
     private JRadioButtonMenuItem rbMenuItem;
     private JCheckBoxMenuItem cbMenuItem;
-    ArrayList<String> imagesNames;
+    ArrayList<String> sonsaNames;
+    ArrayList<String> chasquesNames;
+    ArrayList<String> chigualaNames;
+    ArrayList<String> salitreNames;
     private int c = 0;
 
     private double x, y;
 
     public MainView() {
-        createMenuBar();
-        setNames();
+        setChasquesNames();
+        setChigualaNames();
+        setSalitreNames();
+        setSonsaNames();
         editInformationButton1.setEnabled(false);
-//        editInformationButton1.setSelectedIcon(new ImageIcon("images/infoIco.png"));
-        JFrame frame = new JFrame("Villapinzon Project");
+        JFrame frame = new JFrame("Proyecto Villapinzón");
         frame.setContentPane(mainPanel);
         frame.setJMenuBar(menuBar);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setSize(1500, 800);
-        frame.setMinimumSize(new Dimension(1000, 800));
+        frame.setSize(1300, 700);
+        frame.setMinimumSize(new Dimension(1000, 650));
         frame.setVisible(true);
 
         mapImage.addMouseListener(new MouseAdapter() {
@@ -51,10 +56,64 @@ public class MainView {
                 y = e.getY();
 
                 System.out.println("Position x: " + x + " , Position y: " + y);
-                if (x >= 327.0 && x <= 372.0 && y >= 451.0 && y <= 473.0) {
-                    mapInfoText.setText("This is one of the most beautiful places in Villapinzon, there are more than 700" +
-                            "people living in this wonderful place");
-                    editInformationButton1.setEnabled(true);
+                if (x >= 227.0 && x <= 237.0 && y >= 288.0 && y <= 298.0) {//Chasques
+                    mapInfoText.setText("COPLAS\n\n" +
+                            "1. El gallo en el gallinero\n" +
+                            "Se sacude y se menea\n" +
+                            "Así le pasa a usted\n" +
+                            "Me mira y se saborea.\n\n" +
+                            "Carlos Cárdenas C.\n" +
+                            "68 años. Chazques");
+                    imagesLabel.setIcon(new ImageIcon(chasquesNames.get(0)));
+                    imagesLabel.setVisible(true);
+                } else if (x >= 101.0 && x <= 107.0 && y >= 327.0 && y <= 335.0) {//Chiguala
+                    mapInfoText.setText("COPLAS\n\n" +
+                            "1. Las mujeres también sienten\n" +
+                            "Cuando uno se va y las deja\n" +
+                            "Porque son de carne u hueso\n" +
+                            "Como cualquier yegua vieja.\n\n" +
+                            "Alcides Pinzón\n" +
+                            "62 años. Chiguala\n\n" +
+                            "2. En la puerta de mi casa\n" +
+                            "Tengo una mata de te\n" +
+                            "Las hojas me están diciendo\n" +
+                            "Que me case con usted.\n\n" +
+                            "Héctor Riaño R.\n" +
+                            "72 años. Chiguala\n\n" +
+                            "3. Allá arriba en aquel alto\n" +
+                            "Tengo una cabra amarrada\n" +
+                            "En los ojos y en la cara\n" +
+                            "Se parece a mi cuñada.\n\n" +
+                            "María Adelina Díaz\n" +
+                            "60 años. Chiguala\n\n" +
+                            "4. Por los campos de Nariño\n" +
+                            "Admiramos muchas cosas\n" +
+                            "Que evocamos con cariño\n" +
+                            "Con sus canciones preciosas.\n\n" +
+                            "Abdon Rodríguez\n" +
+                            "74 años. Chiguala");
+                    imagesLabel.setIcon(new ImageIcon(chigualaNames.get(0)));
+                    imagesLabel.setVisible(true);
+                } else if (x >= 120.0 && x <= 127.0 && y >= 243.0 && y <= 253.0) {//Salitre
+                    mapInfoText.setText("COPLAS\n\n" +
+                            "1. Un diablo se cayó al agua\n" +
+                            "Porque un diablo lo empujo\n" +
+                            "Y otro diablo le dijo\n" +
+                            "Como diablos se cayó.\n\n" +
+                            "Gilma Inés Pinzón\n" +
+                            "61 años. Salitre");
+                    imagesLabel.setIcon(new ImageIcon(salitreNames.get(0)));
+                    imagesLabel.setVisible(true);
+                } else if (x >= 108.0 && x <= 116.0 && y >= 293.0 && y <= 303.0) {//Sonsa
+                    mapInfoText.setText("COPLAS\n\n" +
+                            "1. Por esta cañada abajo\n" +
+                            "Con mi yunta de bueyes toscos\n" +
+                            "Cierra la jeta pendejo\n" +
+                            "Que se te llena de moscos.\n\n" +
+                            "José Buenaventura G.\n" +
+                            "81 años. Sonsa");
+                    imagesLabel.setIcon(new ImageIcon(sonsaNames.get(0)));
+                    imagesLabel.setVisible(true);
                 }
             }
         });
@@ -64,28 +123,20 @@ public class MainView {
                 mapInfoText.setEditable(true);
             }
         });
-        showImagesButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                imagesLabel.setVisible(true);
-            }
-        });
         nextImageButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int limit = imagesNames.size();
-                if (c < limit) {
-                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
-                    imagesLabel.repaint();
-                    c++;
-                } else {
-                    c = 0;
-                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
-                    imagesLabel.repaint();
-                    c++;
-                }
-
-
+//                int limit = imagesNames.size();
+//                if (c < limit) {
+//                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
+//                    imagesLabel.repaint();
+//                    c++;
+//                } else {
+//                    c = 0;
+//                    imagesLabel.setIcon(new ImageIcon(imagesNames.get(c)));
+//                    imagesLabel.repaint();
+//                    c++;
+//                }
             }
         });
         previewImageButton.addActionListener(new ActionListener() {
@@ -102,94 +153,31 @@ public class MainView {
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
-        mapImage = new JLabel(new ImageIcon("im1.png"));
-        locationImage = new JLabel(new ImageIcon("location.png"));
-        imagesLabel = new JLabel(new ImageIcon("nature3.jpg"));
+        mapImage = new JLabel(new ImageIcon("images/mainMap2.jpg"));
+        imagesLabel = new JLabel();
         imagesLabel.setVisible(false);
     }
 
-    private void setNames() {
-        imagesNames = new ArrayList<>();
-        imagesNames.add("nature1.jpg");
-        imagesNames.add("nature2.jpg");
-        imagesNames.add("nature3.jpg");
-        imagesNames.add("nature4.jpg");
-        imagesNames.add("nature5.jpg");
+    private void setSonsaNames() {
+        sonsaNames = new ArrayList<>();
+        sonsaNames.add("images/sonsa.jpg");
     }
 
+    private void setChasquesNames() {
+        chasquesNames = new ArrayList<>();
+        chasquesNames.add("images/paramo_guacheneque.jpg");
+        chasquesNames.add("images/pozo_de_la_nutria.jpg");
+        chasquesNames.add("images/mapV.jpg");
+    }
 
-    private void createMenuBar() {
-        //Create the menu bar.
-        menuBar = new JMenuBar();
+    private void setChigualaNames() {
+        chigualaNames = new ArrayList<>();
+        chigualaNames.add("images/nacimiento.jpg");
+        chigualaNames.add("images/paisaje2.jpg");
+    }
 
-//Build the first menu.
-        menu = new JMenu("A Menu");
-        menu.setMnemonic(KeyEvent.VK_A);
-        menu.getAccessibleContext().setAccessibleDescription(
-                "The only menu in this program that has menu items");
-        menuBar.add(menu);
-
-//a group of JMenuItems
-        menuItem = new JMenuItem("A text-only menu item",
-                KeyEvent.VK_T);
-        menuItem.setAccelerator(KeyStroke.getKeyStroke(
-                KeyEvent.VK_1, InputEvent.ALT_MASK));
-        menuItem.getAccessibleContext().setAccessibleDescription(
-                "This doesn't really do anything");
-        menu.add(menuItem);
-
-        menuItem = new JMenuItem("Both text and icon",
-                new ImageIcon("images/middle.gif"));
-        menuItem.setMnemonic(KeyEvent.VK_B);
-        menu.add(menuItem);
-
-        menuItem = new JMenuItem(new ImageIcon("images/middle.gif"));
-        menuItem.setMnemonic(KeyEvent.VK_D);
-        menu.add(menuItem);
-
-//a group of radio button menu items
-        menu.addSeparator();
-        ButtonGroup group = new ButtonGroup();
-        rbMenuItem = new JRadioButtonMenuItem("A radio button menu item");
-        rbMenuItem.setSelected(true);
-        rbMenuItem.setMnemonic(KeyEvent.VK_R);
-        group.add(rbMenuItem);
-        menu.add(rbMenuItem);
-
-        rbMenuItem = new JRadioButtonMenuItem("Another one");
-        rbMenuItem.setMnemonic(KeyEvent.VK_O);
-        group.add(rbMenuItem);
-        menu.add(rbMenuItem);
-
-//a group of check box menu items
-        menu.addSeparator();
-        cbMenuItem = new JCheckBoxMenuItem("A check box menu item");
-        cbMenuItem.setMnemonic(KeyEvent.VK_C);
-        menu.add(cbMenuItem);
-
-        cbMenuItem = new JCheckBoxMenuItem("Another one");
-        cbMenuItem.setMnemonic(KeyEvent.VK_H);
-        menu.add(cbMenuItem);
-
-//a submenu
-        menu.addSeparator();
-        submenu = new JMenu("A submenu");
-        submenu.setMnemonic(KeyEvent.VK_S);
-
-        menuItem = new JMenuItem("An item in the submenu");
-        menuItem.setAccelerator(KeyStroke.getKeyStroke(
-                KeyEvent.VK_2, InputEvent.ALT_MASK));
-        submenu.add(menuItem);
-
-        menuItem = new JMenuItem("Another item");
-        submenu.add(menuItem);
-        menu.add(submenu);
-
-//Build second menu in the menu bar.
-        menu = new JMenu("Help");
-        menu.setMnemonic(KeyEvent.VK_N);
-        menu.getAccessibleContext().setAccessibleDescription(
-                "This menu does nothing");
-        menuBar.add(menu);
+    private void setSalitreNames() {
+        salitreNames = new ArrayList<>();
+        salitreNames.add("images/paisaje.jpg");
     }
 }
